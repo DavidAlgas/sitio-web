@@ -1,22 +1,22 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="es">
 
 <head>
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>bootstrap less2</title>
+    <title>Pirinio Aragones</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="styles/css/modern-business.css">
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- endbower -->
     <!-- endbuild -->
-
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="../bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
@@ -27,36 +27,223 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Standard button -->
-    <button type="button" class="btn btn-default">Default</button>
 
-    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-    <button type="button" class="btn btn-primary">Primary</button>
 
-    <!-- Indicates a successful or positive action -->
-    <button type="button" class="btn btn-success">Success</button>
 
-    <!-- Contextual button for informational alert messages -->
-    <button type="button" class="btn btn-info">Info</button>
 
-    <!-- Indicates caution should be taken with this action -->
-    <button type="button" class="btn btn-warning">Warning</button>
 
-    <!-- Indicates a dangerous or potentially negative action -->
-    <button type="button" class="btn btn-danger">Danger</button>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Pagina Principal</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pueblos <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-1-col.html">Ainsa</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">Sos del Rey Católico</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">Alquézar</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Montaña <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html">Monte Perdido</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Aneto</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">Circo de Gavernie</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://docs.google.com/document/d/18nOO5W6l70uMqV7eStmbNpqE4xDRoxEP1jmfjuWCJDg/edit?usp=sharing" target="_black">Sobre la Pagina</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-    <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
-    <button type="button" class="btn btn-link">Link</button>
 
-    <div class="hero-unit">
-        <h1>'Allo, 'Allo!</h1>
-        <p>You now have</p>
-        <ul>
-            <li>HTML5 Boilerplate</li>
-            <li>Sass</li>
-            <li>Modernizr</li>
-        </ul>
+
+
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('https://drscdn.500px.org/photo/80902109/m%3D2048/26f45806e2a6d38fa7e51b7a7c189eb0');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('https://drscdn.500px.org/photo/68296227/m%3D2048/947cbf65e2e95a4202e310e7545d2498');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('https://drscdn.500px.org/photo/38914970/m%3D2048/240833f3dd89c82af25d61c78b490cd1');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+
+
+
+
+
+
+
+
+    <!-- Portfolio Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Disfruta de las Vistas</h2>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img class="img-responsive img-portfolio img-hover" src="https://drscdn.500px.org/photo/85332559/m%3D2048/33ab8e6cc2c907c30631b0b33e4cfe06" alt="Ainsa">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img class="img-responsive img-portfolio img-hover" src="https://drscdn.500px.org/photo/6262036/m%3D2048/2889753625a6fe8c125096fd28c1e6ca" alt="SOS">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img class="img-responsive img-portfolio img-hover" src="https://drscdn.500px.org/photo/8437968/m%3D2048/6fef628fc5b16471999ba47233ed9d8d" alt="Alquezar">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img class="img-responsive img-portfolio img-hover" src="https://drscdn.500px.org/photo/102263291/m%3D2048/1ec49ea97629551b98227c6970d4680b" alt="MontePerdido">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img class="img-responsive img-portfolio img-hover" src="https://drscdn.500px.org/photo/60396150/m%3D2048/9d65f30776cd3c303608174aa876c257" alt="MonteAneto">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img class="img-responsive img-portfolio img-hover" src="https://drscdn.500px.org/photo/76354805/m%3D2048/16ef881d7bdf7b56d376c49bb85cf149" alt="Gavarnie">
+                </a>
+            </div>
+        </div>
+        <!-- /.row -->
     </div>
+    <!-- /.container -->
+
+
+
+
+
+    <div class="container">
+    <!-- Footer -->
+        <footer class="panel">
+            <div class="row">
+                <div class="col-lg-10">
+                    <p>Copyright &copy; David Algás 2015</p>
+                </div>
+                <div class="col-lg-2">
+                    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/pirineoaragon" target="_black">
+                        <i class="fa fa-twitter fa-2x"></i>
+                    </a>
+                    <a class="btn btn-social-icon btn-facebook" href="https://es-es.facebook.com/pages/Pirineos/48189038692" target="_black">
+                        <i class="fa fa-facebook fa-2x"></i>
+                    </a>
+                    <a class="btn btn-social-icon btn-instagram" href="https://twitter.com/pirineoaragon" target="_black">
+                        <i class="fa fa-instagram fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -75,14 +262,11 @@
     ga('create', 'UA-XXXXX-X');
     ga('send', 'pageview');
     </script>
-
-
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-
     <!-- build:js scripts/plugins.js -->
     <script src="../bower_components/bootstrap/js/affix.js"></script>
     <script src="../bower_components/bootstrap/js/alert.js"></script>
@@ -97,9 +281,6 @@
     <script src="../bower_components/bootstrap/js/collapse.js"></script>
     <script src="../bower_components/bootstrap/js/tab.js"></script>
     <!-- endbuild -->
-
-
-
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
