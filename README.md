@@ -14,7 +14,7 @@ La web tratará de un tema libre que deberá tener un mínimo de 4 páginas web 
     - Paleta de colores
     - Framework CSS...
    
-##Diseño
+## Diseño
 - Uso de una paleta de colores.
 - Consistencia en el diseño de cada página del sitio.
 - Uso de fuentes según Google Fonts.
